@@ -3,4 +3,12 @@ body {
   	background-image: url("assets/background.png");
   	background-repeat: repeat;
   	background-attachment: fixed;
+	animation: bgMove 16s linear infinite;
+
+	font-family: Comic Sans MS;
+}
+
+@keyframes bgMove {
+  0% {background-position: 0px 0px;}
+  100% {background-position: 0px 256px;}
 }
